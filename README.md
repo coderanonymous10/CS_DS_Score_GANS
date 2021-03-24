@@ -34,11 +34,11 @@ USE:<br />
 
 1: Classification score(CS):<br />
 Each gan is mentioned as MNIST_gan_name.ipynb<br />
-
 After running the above file with required dataset(mnist_splitter and cnn_c1)<br />
 each gan will generated the images as dataloader and save as well and (FID,IS,PSNR,MMD) will be calculated and print on screen for below epochs:<br />
 "checkpoint = [1,10,20,30,40,50,100,150,200]"<br />
 ==================================================================================================================
+
 A: Direct_classification(C2):<br />
 to calulate the direct classification values for each epochs we need to run the file mnist-cnn-c2_direct_classification.ipynb<br />
 use this "train_loader = torch.load('../input/mnist-splitter/stdash_dataloader')" to train the convolutional neural network<br />
